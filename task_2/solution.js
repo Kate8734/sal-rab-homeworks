@@ -65,8 +65,8 @@ function calcDiscount(sum, min, discount) {
 
     return discountSum;
 }
-    
 
+    
 function calcInvoice({sum, discountMinSum, discountPart, shippingFreeMinSum, shippingPrice}) {
     let productsSum = sum;
     let discountSum = calcDiscount(sum, discountMinSum, discountPart);
