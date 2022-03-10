@@ -64,7 +64,7 @@ function calcDiscount(sum, min, discount) {
     // Конец решения задания №2.2.
 
     return discountSum;
-  }
+}
     
 
 function calcInvoice({sum, discountMinSum, discountPart, shippingFreeMinSum, shippingPrice}) {
